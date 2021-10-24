@@ -1,0 +1,66 @@
+#ac-localnav
+{
+    font-weight:normal;
+    -webkit-text-size-adjust:100%;
+    -ms-text-size-adjust:100%;
+    text-size-adjust:100%
+}
+#ac-localnav,#ac-localnav:before,#ac-localnav:after,#ac-localnav *,#ac-localnav *:before,#ac-localnav *:after
+{
+    box-sizing:content-box;
+    margin:0;
+    padding:0;
+    pointer-events:auto;
+    letter-spacing:normal
+}
+#ac-localnav *,#ac-localnav *:before,#ac-localnav *:after
+{
+    font-size:1em;
+    font-family:inherit;
+    font-weight:inherit;
+    line-height:inherit;
+    text-align:inherit
+}
+#ac-localnav article,#ac-localnav aside,#ac-localnav details,#ac-localnav figcaption,#ac-localnav figure,#ac-localnav footer,#ac-localnav header,#ac-localnav nav,#ac-localnav section
+{
+    display:block
+}
+#ac-localnav img
+{
+    border:0;vertical-align:middle
+}
+#ac-localnav ul
+{
+    list-style:none
+}
+#ac-localnav,#ac-localnav input,#ac-localnav textarea,#ac-localnav select,#ac-localnav button
+{
+    font-synthesis:none;
+    -moz-font-feature-settings:'kern';
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+    direction:ltr;
+    text-align:left
+}
+#ac-localnav,#ac-localnav select,#ac-localnav button
+{
+    font-family:"SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif
+}
+#ac-localnav:lang(ar),#ac-localnav select:lang(ar),#ac-localnav button:lang(ar)
+{
+    font-family:"SF Pro AR","SF Pro Gulf","SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif
+}
+#ac-localnav .ac-ln-button:hover
+{
+    background:#147ce5
+}
+#ac-localnav .ac-ln-button:active
+{
+    background:#0068d1
+}
+#ac-localnav .ac-ln-button:disabled,#ac-localnav .ac-ln-button.disabled,#ac-localnav .ac-ln-button.current
+{
+    background:#0071e3;
+    color:#fff;
+    opacity:.32
+}
